@@ -1,0 +1,10 @@
+<template>
+    <div>
+        <p>{recordId}</p></br>
+        <p>{objectApiName}</p></br>
+        <p>{status}</p></br>
+        <lightning-button variant="brand" label="Create Case" onclick={handleClick}></lightning-button>
+        <lightning-button variant="neutral" label="Update Case Status" onclick={handleUpdate}></lightning-button>
+        <lightning-button variant="neutral" label="Delete Case" onclick={handleDelete}></lightning-button>
+    </div>
+</template>
